@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugador</title>
+    <link rel="stylesheet" href="..\CSS\estilo_jugador.css">
+
+</head>
+<body>
+    <form class="formulario">
+        <a class="link" href="index.html">Atras</a>
+        <h1 class="formulario__titulo">Jugador</h1>
+        <fieldset class="field">
+            <legend>Elige un tipo:</legend>
+            <label>
+                <input type="radio" name="tipo" class="Descrita">Info. Descrita
+            </label>
+            <label>
+                <input type="radio" name= "tipo" class="almacenada">Info. Almacenada
+            </label>
+        </fieldset>
+        
+        <input type="text" id="nombre" class="formulario__input" readonly>
+        <label for="" class="formulario__label">Nombre</label>
+        <input type="text" id= "apellido" class="formulario__input"readonly>
+        <label for="" class="formulario__label">Apellido</label>
+        <input type="text" id= "usuario"class="formulario__input" readonly>
+        <label for="" class="formulario__label">Usuario</label>
+        <input type="text" id= "correo"class="formulario__input" readonly>
+        <label for="" class="formulario__label">Correo</label>
+        <input type="password" id="contraseña" class="formulario__input" readonly>
+        <label for="" class="formulario__label">Contraseña</label>
+        <input type="text" id= "validador" class="formulario_input" >
+        <label for="" class="formulario__label">Validador</label> 
+        <input type="button" value="Validar" class="btn_validar"></input>
+        
+    </form>
+    <script src="..\JS\form.js"></script>
+</body>
+</html>
